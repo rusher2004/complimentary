@@ -14,5 +14,5 @@ var compliments = []string{
 }
 
 func init() {
-	fmt.Println(rand.IntN(len(compliments)))
+	fmt.Println(compliments[rand.IntN(len(compliments))])
 }
